@@ -1,0 +1,64 @@
+html,
+body {
+    min-width:450px;
+    height: 100%;
+    font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+    font-size:12px;
+    background:#fff;
+}
+
+.checkpoint{
+    width:450px;
+    height:240px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background:#F5F5F5 url('../images/two.png') no-repeat left center;
+}
+.checkpoint_ul{
+    list-style-type: none; 
+    cursor: pointer;
+}
+.checkpoint_ul_left{
+    float: left; 
+    color: #fff; 
+    margin-top: 1%; 
+    font-size: 20px; 
+    font-weight: bold;
+}
+.checkpoint_ul_right{
+    float: right; 
+    color: #fff; 
+    margin-top: 1%; 
+    font-weight: bold;
+}
+.checkpoint_ul_right a, .checkpoint_ul_right a:hover, .checkpoint_ul_right a:focus, .checkpoint_ul_right a:visited {
+    text-decoration: none;
+    color: #fff; 
+}
+
+
+.checkpoint h2{
+    margin:0px 0px;
+    padding:3px 0px;
+    font-size:20px;
+    font-weight:bold;
+    color:#4B8DF8;
+    border-bottom:1px solid #ccc;
+}
+
+.vform{
+    width:220px;
+    float:right;
+    margin-top:20px;
+}
+
+p.form_error{
+    margin:0px;
+    padding:2px 0px;
+    font-size:11px;
+    color:red;
+}
+.clear{clear:both;}

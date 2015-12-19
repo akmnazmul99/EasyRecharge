@@ -1,1 +1,29 @@
 /* Default CSS loaded from main css */
+
+.home_unorder_list,.home_default_user{
+    padding-top: 20px;
+}
+.home_unorder_list li{
+    color: #999900;
+    margin-left: 15%;
+    font-family: cursive;
+    padding: 2px 0;
+}
+
+.home_default_user li{
+    display: inline;
+    font-size: 24px;
+    font-weight: normal;
+    padding-right: 25px;
+}
+.home_default_user .li_color{
+    color: #009927;
+    
+}
+
+
+@media only screen and (max-width: 991px){
+    .hidden_content{
+       display: none; 
+    }
+}
